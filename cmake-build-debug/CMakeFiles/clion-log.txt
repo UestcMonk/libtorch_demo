@@ -1,0 +1,18 @@
+"E:\CLion 2017.1.4\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\xujianhua\CLionProjects\TESTCC
+-- Caffe2: CUDA detected: 10.0
+-- Caffe2: CUDA nvcc is: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin/nvcc.exe
+-- Caffe2: CUDA toolkit directory: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0
+-- Caffe2: Header version is: 10.0
+-- Found cuDNN: v7.6.0  (include: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/include, library: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/lib/x64/cudnn.lib)
+CMake Error at L:/libtorch-win-shared-with-deps-debug-latest/libtorch/share/cmake/Caffe2/public/cuda.cmake:295 (message):
+  CUDA support not available with 32-bit windows.  Did you forget to set
+  Win64 in the generator target?
+Call Stack (most recent call first):
+  L:/libtorch-win-shared-with-deps-debug-latest/libtorch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)
+  L:/libtorch-win-shared-with-deps-debug-latest/libtorch/share/cmake/Torch/TorchConfig.cmake:40 (find_package)
+  CMakeLists.txt:11 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/xujianhua/CLionProjects/TESTCC/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/xujianhua/CLionProjects/TESTCC/cmake-build-debug/CMakeFiles/CMakeError.log".
